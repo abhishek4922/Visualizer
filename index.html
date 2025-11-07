@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Pitch Visualizer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>🎬 The Pitch Visualizer</h1>
+        <p>Transform your narrative into stunning visual storyboards</p>
+    </header>
+
+    <div class="card">
+        <div class="form-group">
+            <label>📝 Your Narrative</label>
+            <textarea id="narrative" placeholder="Enter your 3-5 sentence narrative here. Describe a compelling story with vivid details..."></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>🎨 Choose Your Art Style</label>
+            <div class="style-selector">
+                <div class="style-option">
+                    <input type="radio" name="artStyle" id="digital" value="Digital Art" checked>
+                    <label for="digital">✨ Digital Art</label>
+                </div>
+                <div class="style-option">
+                    <input type="radio" name="artStyle" id="photo" value="Photorealistic">
+                    <label for="photo">📷 Photorealistic</label>
+                </div>
+                <div class="style-option">
+                    <input type="radio" name="artStyle" id="anime" value="Anime">
+                    <label for="anime">🎌 Anime</label>
+                </div>
+                <div class="style-option">
+                    <input type="radio" name="artStyle" id="pixel" value="Pixel Art">
+                    <label for="pixel">🎮 Pixel Art</label>
+                </div>
+                <div class="style-option">
+                    <input type="radio" name="artStyle" id="comic" value="Comic Book">
+                    <label for="comic">💥 Comic Book</label>
+                </div>
+                <div class="style-option">
+                    <input type="radio" name="artStyle" id="watercolor" value="Watercolor">
+                    <label for="watercolor">🖌️ Watercolor</label>
+                </div>
+            </div>
+        </div>
+
+        <button class="generate-btn" id="generateBtn">
+            🚀 Generate Storyboard
+        </button>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <div class="loading-text">Creating your visual masterpiece...</div>
+        </div>
+
+        <div class="storyboard" id="storyboard"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
