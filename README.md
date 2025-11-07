@@ -1,3 +1,5 @@
+[![Gradio Live Demo](https://img.shields.io/badge/Gradio-Live%20Demo-brightgreen)](https://498c3d365246c38cb3.gradio.live/)
+
 # The Pitch Visualizer
 
 The Pitch Visualizer is a tool to transform your short narrative (3–5 sentences) into a stunning visual storyboard. You can use it either through a **web-based Flask interface** or a **Gradio-hosted notebook interface** powered by Google's Gemini model for prompt engineering and Stable Diffusion for image generation.
